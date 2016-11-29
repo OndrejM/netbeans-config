@@ -1,10 +1,11 @@
 # netbeans-config
 Custom configuration for netbeans
 
-Clone bare repo to the root of Netbeans installation:
+Clone repo to the root of Netbeans installation:
 
 ```
-REPOURL=https://github.com/OndrejM/netbeans-config.git && git clone --bare $REPOURL .git
+REPOURL=https://github.com/OndrejM/netbeans-config.git && git clone -n $REPOURL my-netbeans-config
+&& mv my-netbeans-config/.git/ .git && rmdir my-netbeans-config/
 ```
 
 Then:
